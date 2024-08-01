@@ -79,7 +79,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 
-The best two regressor model is H-W.
+The best two regressor model is H-W.  
 
 ### Best Two regressor model
 
@@ -88,7 +88,7 @@ Perch2model=lm(Weight~Height+Width,data = Perch)
 summary.lm(Perch2model)
 ```
 
-The best two regressor model used to determine weight for Perch is using height and weight(H-W)
+The best two regressor model used to determine weight for Perch is using height and weight(H-W)  
 
 ## Pike
 
@@ -149,7 +149,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 
-The regressor shows that L3-W is greater.
+The regressor shows that L3-W is greater.  
 
 ### Best Two regressor model
 
@@ -159,11 +159,11 @@ Roach2Model=lm(Weight~Length3-Width,data = Roach)
 summary.lm(Roach2Model)
 ```
 
-The Best regressor model for predicting weight for Roach is using Length 3 and Width.
+The Best regressor model for predicting weight for Roach is using Length 3 and Width.  
 
 
 ## Final Summary Statements
 
-The results above for Perch say that the best two regressor model used to predict weight for Perch is using height and weight(H-W). The results also showed that the best regressor model for predicting weight for Pike is using Length 1 and Length 3. The results for Roach showed that the best regressor model for predicting weight for Roach is using Length 3 and Width.
+The results above for Perch say that the best two regressor model used to predict weight for Perch is using height and weight(H-W). The results also showed that the best regressor model for predicting weight for Pike is using Length 1 and Length 3. The results for Roach showed that the best regressor model for predicting weight for Roach is using Length 3 and Width.  
 
 
